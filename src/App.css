@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+.App {
+    text-align: center;
+    max-width: 30em;
+    margin: auto;
+}
+
+footer {
+    text-align: 'center';
+}

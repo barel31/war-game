@@ -1,0 +1,33 @@
+.open {
+    text-align: center;
+    border: 1px solid green;
+}
+
+.open h1 {
+    color: steelblue;
+    font-size: 30px;
+}
+
+.open input[type='text'] {
+    height: 2em;
+    max-width: 8em;
+    margin: 1em auto;
+    padding: 0 1em;
+    text-align: center;
+    border: 0.1em solid green;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.open button {
+    display: block;
+    position: relative;
+    margin: 1em auto;
+    /* background-color: steelblue; */
+    /* border-radius: 0.4em; */
+    /* color: white; */
+    /* height: 2em; */
+    /* width: 7em; */
+    font-size: 1.5em;
+}
