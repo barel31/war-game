@@ -17,7 +17,9 @@ const CARDS = [
 ];
 
 CARDS.forEach(v => {
-    require('./Components/cards/' + v + '.svg');
+    // require('./Components/cards/' + v + '.svg');
+    const img = new Image();
+    img.src = './Components/cards/' + v + '.svg';
 });
 
 export default function App() {
