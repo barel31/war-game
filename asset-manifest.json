@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/war-game/static/css/main.9f4134ec.css",
-    "main.js": "/war-game/static/js/main.d269fd8d.js",
-    "static/js/787.4cd211bf.chunk.js": "/war-game/static/js/787.4cd211bf.chunk.js",
+    "main.css": "/war-game/static/css/main.993a4b90.css",
+    "main.js": "/war-game/static/js/main.4a32c498.js",
     "static/media/s11.svg": "/war-game/static/media/s11.9c9528af5410b40a3444.svg",
     "static/media/h13.svg": "/war-game/static/media/h13.16fca224c60fbe65c0f2.svg",
     "static/media/d11.svg": "/war-game/static/media/d11.f082f869b11b3e0a47f6.svg",
@@ -56,12 +55,11 @@
     "static/media/h1.svg": "/war-game/static/media/h1.8e04bfb3f97a78df560b.svg",
     "static/media/d1.svg": "/war-game/static/media/d1.abae40244bb9785c639a.svg",
     "index.html": "/war-game/index.html",
-    "main.9f4134ec.css.map": "/war-game/static/css/main.9f4134ec.css.map",
-    "main.d269fd8d.js.map": "/war-game/static/js/main.d269fd8d.js.map",
-    "787.4cd211bf.chunk.js.map": "/war-game/static/js/787.4cd211bf.chunk.js.map"
+    "main.993a4b90.css.map": "/war-game/static/css/main.993a4b90.css.map",
+    "main.4a32c498.js.map": "/war-game/static/js/main.4a32c498.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f4134ec.css",
-    "static/js/main.d269fd8d.js"
+    "static/css/main.993a4b90.css",
+    "static/js/main.4a32c498.js"
   ]
 }
