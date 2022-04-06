@@ -16,12 +16,6 @@ const CARDS = [
     'd1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd7', 'd8', 'd9', 'd10', 'd11', 'd12', 'd13',
 ];
 
-CARDS.forEach(v => {
-    // require('./Components/cards/' + v + '.svg');
-    const img = new Image();
-    img.src = './Components/cards/' + v + '.svg';
-});
-
 export default function App() {
     const [players, setPlayers] = useState([
         // examples

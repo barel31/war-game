@@ -31,7 +31,7 @@ export default function Game(props) {
         return '#B8FFF9';
     };
 
-    const cardHandler = (card) => {
+    const showCard = (card) => {
         return <img src={require('./cards/' + card + '.svg')} alt={card} />;
     };
 
@@ -53,8 +53,8 @@ export default function Game(props) {
             <div className='card'>
                 <span className='cardNumber'>{cardHandler(props.player.cards[0])}</span>
             </div> */}
-            {cardHandler(props.bot.cards[0])}
-            {cardHandler(props.player.cards[0])}
+            {showCard(props.bot.cards[0])}
+            {showCard(props.player.cards[0])}
             <div className='down'>
                 <button autoFocus className='button-next' onClick={next}>
                     {props.player.cards.length > 1 ? 'NEXT' : 'FINISH'} ({27 - props.player.cards.length}/26)
