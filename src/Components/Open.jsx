@@ -9,7 +9,7 @@ export default function Open(props) {
     const [showScoreboard, setShowScoreboard] = useState(false);
 
     const validName = () => {
-        if (name != '') return null;
+        if (name !== '') return null;
         else
             return (
                 <label htmlFor='name' style={{ color: 'red' }}>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Game.css';
 const PAGE_RESULT = 2;
 
@@ -30,6 +30,14 @@ export default function Game(props) {
         if (winner() === 1) return '#6EBF8B';
         return '#B8FFF9';
     };
+
+    // useEffect to load all cards svgs before page load for a smoother play.
+    useEffect(() => {
+        for (let i = 0; i < props.bot.cards.length; i++) {
+            require('./cards/' + props.bot.cards[i] + '.svg');
+            require('./cards/' + props.player.cards[i] + '.svg');
+        }
+    }, [props.bot.cards, props.player.cards]);
 
     const showCard = (card) => {
         return <img src={require('./cards/' + card + '.svg')} alt={card} />;
